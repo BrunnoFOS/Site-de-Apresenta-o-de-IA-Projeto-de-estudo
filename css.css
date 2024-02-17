@@ -1,0 +1,240 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.toppage {
+  text-align: center;
+  padding: 20px;
+  background-color: #04233f;
+}
+
+.paragrafotop {
+  font-size: 2em;
+  font-weight: 600;
+  color: #1190ff;
+}
+
+.navbar {
+  text-align: center;
+  padding: 20px;
+  background-color: #06345d;
+}
+
+.navbar a {
+  font-size: 1.5em;
+  margin: 0px 50px;
+  text-decoration: none;
+  color: #7cc2ff;
+}
+/*aqui podemos ver um exemplo de hierarquia e o hover utilizado para dar o efeito da letra ficando
+branca quando o mouse passa por cima*/
+.navbar a:hover {
+  color: white;
+}
+
+.fundoservicos {
+  /*o overflow serve para ativar a barra de rolagem automaticamente*/
+  background-color: #05192a;
+  overflow: auto;
+}
+
+.servicos {
+  font-family: "Courier New", Courier, monospace;
+  color: #81c4ff;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: #061f35;
+  /* aqui criei o "botão" das sections, onde o border-radius
+  serve para arredondar as pontas, o padding para preencher o conteudo,
+  tanto em top, bottom, quanto pra left e right e o width serve para delimitar
+  as bordas do botão, criando esse aspecto, além disso o margin: 60px e auto, ordenam
+  respectivamente a margem topo e inferior e automatiza as margens laterais, centralizando o botão*/
+  border-radius: 10px;
+  margin: 60px auto;
+  padding: 50px;
+  width: 50%;
+  float: center;
+}
+
+.icone {
+  margin-bottom: 20px;
+  /*aqui afasto o icone de dentro das seções do texto em si*/
+}
+
+.destaqueservicos {
+  font-weight: bold;
+  color: azure;
+}
+
+.informacoescontainer {
+  background-color: #082946;
+  padding: 80px;
+  color: azure;
+  text-align: center;
+}
+
+.tituloinfo {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.text-info a {
+  color: azure;
+  text-decoration: none;
+  background-color: #008eb9;
+  border-radius: 10px;
+  padding: 20px 60px;
+  margin: 10px auto;
+  display: block;
+  max-width: 200px;
+  font-size: 1.2em;
+}
+/*aqui podemos ver um exemplo de hierarquia e o hover utilizado para dar o efeito de
+ um preenchimento do botão de branco e a letra ficando preta ao mouse passar por cima*/
+.text-info a:hover {
+  background-color: white;
+  color: black;
+}
+
+.rodape {
+  background-color: #05192a;
+  color: gray;
+  padding: 80px 30px;
+  text-align: center;
+}
+
+/* A partir daqui, farei o css do contatos*/
+
+.fundoservicos1 {
+  background-color: #05192a;
+  color: white;
+  text-align: center;
+  padding: 60px 0;
+}
+.destaquecontatos {
+  font-size: 3em;
+  font-weight: 600;
+}
+/*color: #1190ff;*/
+.dispo {
+  background-color: #061f35;
+  display: block;
+  font-size: 1.5em;
+  padding: 20px 10px;
+  width: 40%;
+  border-radius: 10px;
+  margin: 20px auto;  
+  border: 0.5px solid aqua;
+}
+
+.destne {
+  color: #1190ff;
+  font-size: 2em;
+}
+
+.anot{
+  font-size: 0.8em;
+  margin: 16px;
+}
+
+.servicos-background {
+background-color: #06345d;
+text-align: center;
+color: white;
+padding: 60px;
+}
+.servicos-background p {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.botaocontato{
+padding: 60px;
+}
+.botaocontato a{
+display: block;
+text-decoration: none;
+background-color: #008eb9;
+color: white;
+text-align: center;
+padding: 20px;
+max-width: 300px;
+border-radius: 10px;
+margin: 0px auto;
+font-size: 1.2em;
+}   
+
+.rodape1 {
+  background-color: #05192a;
+  text-align: center;
+  padding: 80px;
+  color: gray;
+}
+
+.fundoservicos2 {
+  background-color: #05192a;
+  font-size: 1.1em;
+  color: white;
+  text-align: center;
+  overflow: auto;
+  max-width: 100%;
+  padding: 60px;
+}
+
+.fundoservicos2 h1 {
+  font-size: 3em;
+  padding: 20px;
+}
+
+.fundoservicos2 h3{
+color: #1190ff;
+padding: 20px 0;
+}
+
+.fundoservicos2 article {
+  width: 20%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.fundoservicos2 li {
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.informacoescontainer {
+  background-color: #082946;
+  padding: 80px;
+  color: azure;
+  text-align: center;
+}
+
+.tituloinfo {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.text-info a {
+  color: azure;
+  text-decoration: none;
+  background-color: #008eb9;
+  border-radius: 10px;
+  padding: 20px 60px;
+  margin: 10px auto;
+  display: block;
+  max-width: 200px;
+  font-size: 1.2em;
+}
+/*aqui podemos ver um exemplo de hierarquia e o hover utilizado para dar o efeito de
+ um preenchimento do botão de branco e a letra ficando preta ao mouse passar por cima*/
+.text-info a:hover {
+  background-color: white;
+  color: black;
+}
